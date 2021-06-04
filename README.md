@@ -5,7 +5,7 @@ This repository present a new network bootstrap procedure, termed local bootstra
 Supporting functions related to this proposed methods are provided under the "functions" folders. The main function:
 
 ```
-zhu_nb_boot <- function(A,quantile_n=0,B,returns = "boot",method = "own", distance = "zhu",
+zhu_nb_boot <- function(A,quantile_n=0,B,returns = "boot",method = "own", distance = "zhu", 
 kowning_u=NULL, induced_sampling=TRUE, weighted=FALSE, getT=NULL,...)
 ```
 
